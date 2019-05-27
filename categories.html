@@ -11,6 +11,7 @@
 
 	<link rel="stylesheet" type="text/css" href="css/vehicle.css"/>
 	<link  rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/response.css">
 	<script src="js/jquery-1.10.2.js"></script>
 	<script src="js/vehicle.js"></script>
 <body>
@@ -73,9 +74,9 @@
                             </div>
                             <div class="car-mart-col-s-2 no-spaces small-devices navigation-toggle">
                                <ul class="car-mart-dark">
-                                  <li><a href="#" class="active">
+                                  <li><a href="#" >
                                         <span class="car-mart-icons-20 car-mart-icons-home-dark"></span> Home </a></li>
-                                  <li><a href="#categories.html"> 
+                                  <li><a href="#categories.html" class="active"> 
                                         <span class="car-mart-icons-20 car-mart-icons-category"></span> Category </a></li>
                                   <li><a href="alls.html">
                                       <span class="car-mart-icons-20 car-mart-icons-cars"></span> All Cars </a></li>
@@ -113,9 +114,9 @@
   <div class="car-mart-row no-spaces large-devices">
                 <div class="navigation" class="car-mart-col-s-12">
                     <nav>
-                        <a href="index.html" class="active">
+                        <a href="index.html" >
                             <span class="car-mart-icons-20 car-mart-icons-home"></span> Home </a>
-                        <a href="categories.html" class="Medium-device"> 
+                        <a href="categories.html" class="active" class="Medium-device" > 
                             <span class="car-mart-icons-20 car-mart-icons-category-dark"></span> Category </a>
                         <a href="alls.html" class="Medium-device">
                             <span class="car-mart-icons-20 car-mart-icons-cars-dark"></span> All Cars </a>
@@ -127,7 +128,7 @@
                             <img src="assets/img/menu-alt.png">
                             <ul id="Medium_dropDown">
                                <li> 
-                                   <a href="categories.html">
+                                   <a href="categories.html" class="active">
                                       <span class="car-mart-icons-20 car-mart-icons-category-dark"></span> Category
                                    </a>
                                 </li>
@@ -154,14 +155,15 @@
             </div>
 
 <!--====================================category=================-!-->
-<div class= "category">
-	<ul class="vehicle_cat">
+<div  class= "category"> 
+	<ul class="vehicle_cat"> 
+       <div class="large-devices">          
 		<li class="all"> ALL </li>
 		<li class="cars"> Cars</li>
 		<li class="vintage"> Vintage Cars</li>
 		<li class="trucks">Trucks</li>
-		<li class="sports">  Sports Cars</li>
-
+		<li class="sports"> Sports Cars</li>
+    </div>
 	</ul>
 	<ul class="product_gallery">
 		<li class="car_cat">

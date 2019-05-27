@@ -262,7 +262,7 @@ a {
 }
 
 .bottom-button {
-    border-radius:0 0 10px 10px;
+    border-radius:10px 10px 10px 10px;
 }
 
 .car-mart-btn {
@@ -278,6 +278,7 @@ width: 100%;
    color:#BBD8F2;
    background-color:#3F4B59;
    cursor: pointer;
+   margin-top: 40px;
 }
 
 
